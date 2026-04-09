@@ -1,0 +1,232 @@
+
+body{
+    background-color: white;
+}
+
+.out-box{
+    display: flex;
+    
+}
+
+
+
+/*============================== LEFT SIDE ==============================*/
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    padding: 20px;
+    background-image: url("../images/bg-out.png");
+    background-size: cover;
+}
+
+.left-side .logo-cont{
+    flex-grow: 1;
+
+}
+.logo-cont .logo{
+    width: 150px;
+
+}
+
+.left-side .disp-left{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-grow: 5;  
+    padding: 5%;
+    width: 100%;
+}
+
+.left-side .invi{
+
+    width: 100%;
+    flex-grow: 1;
+}
+
+
+.disp-left .head1{
+    color: white;
+    font-weight: 800;
+    font-size: 60px;
+    width: 100%;
+}
+
+.disp-left .subhead1{
+    color: white;
+    flex-wrap: wrap;
+    width: 90%;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+/*=======================================================================*/
+
+
+/*============================== RIGHT SIDE ==============================*/
+
+.right-side{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    padding: 6% 12%;
+    justify-content: center;
+}
+
+.right-side .login-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box .title{
+    width: 100%;
+    font-size: 30px;
+  font-weight: 700;
+    text-align: center;
+    margin-bottom: 10%;
+  	color: #2282A2;
+}
+
+.login-box .log-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 30%;
+}
+.log-form .input-box{
+    height: 25%;
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    border: none;
+    background-color:#f3f3f3;
+}
+.log-form .input-box:focus-within{
+    outline: 2px solid #3d5464;
+}
+.input-box .email-logo{
+    font-size: 30px;
+    align-self: center;
+    margin-left: 10px;
+    color: #2282A2;
+}
+.input-box .email-input{
+    font-size: 20px;
+    width: 100%;
+    align-self: center;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background: transparent;
+}
+.input-box .pass-logo{
+    font-size: 30px;
+    align-self: center;
+    margin-left: 10px;
+    color: #2282A2;
+}
+.input-box .pass-input{
+    font-size: 20px;
+    width: 77%;
+    align-self: center;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background: transparent;
+}
+
+.log-form .login-btn{
+    width: 100%;
+    height: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: #2282A2;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    transition: 0.25s;
+}
+.log-form .login-btn:hover{
+    background-color: #A0D7ff;
+    color: #1b2227;
+    text-align: center;
+}
+
+.login-box .inv-box{
+    width: 90%;
+    height: 5%;
+}
+.inv-box .inv{
+    font-size: 17px;
+    color: #e62e46;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-box .frg{
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: #3d5464;
+    transition: 0.25s;
+}
+.login-box .frg:hover{
+    display: flex;
+    text-decoration: none;
+    font-size: 17px;
+    color: #A0D7ff;
+}
+
+.login-box .dvr{
+    width: 100%;
+    color: #1b2227;
+    opacity: 1;
+}
+
+.login-box .grp-btn{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 11%;
+    margin-bottom: 5%;
+}
+.grp-btn .c-grp-btn{
+    color: white;
+    background-color: #2282A2;
+    border: none;
+    border-radius: 7%;
+    width: 45%;
+    height: 80%;
+    font-size: 35px;
+    text-align: center;
+    align-content: center;
+    transition: 0.25s;
+}
+.grp-btn .c-grp-btn:hover{
+    color: #1b2227;
+    background-color: #A0D7ff;
+}
+
+.login-box .subtext{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+
+/*=======================================================================*/

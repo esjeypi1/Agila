@@ -1,0 +1,570 @@
+body{
+  background-image: url("../images/adminagila.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.box-out{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.hero-section{
+  height: 90%;
+  display: flex;
+  width: 100%;
+}
+
+/* Side Menu */
+.hero-section .side-menu{
+  display: flex;
+  flex-direction: column;               
+  background-color: #1892c3;
+  height: 100%;
+  width: 17%;
+  box-shadow: 3px 1px 5px #888888;
+}
+
+.side-menu .side-title{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-grow: 1;
+}
+.side-title .place{
+  width: 100%;
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  font-weight:700;
+}
+.side-title .coor{
+  width: 100%;
+  margin: 0;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  font-weight:400;
+  margin-bottom: 10%;
+}
+
+.side-menu .side-btn-grp{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  flex-grow: 2;
+  border: none;
+}
+.side-btn-grp .side-btn{
+  border: none;
+  width: 100%;
+  background-color: #2282a2;
+  color: white;
+  padding: 4%;
+  text-decoration: none;
+  font-size: 22px;
+  transition: 0.25s;
+}
+.side-btn-grp .side-btn:hover{
+  background-color: #A0D7ff;
+  color: #1b2227;
+}
+.side-btn .btn-logo{
+  margin-right: 6%;
+  margin-left: 6%;
+  font-size: 20px;
+}
+
+.side-menu .side-tips{
+  display: flex;
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  color: white;
+  align-self: flex-end;
+  padding: 0 10px 5%;
+
+}
+/* title */
+
+
+/* line */
+.horizontal_line {
+  background-color: #6cd2f4;
+  position: absolute;
+  top: 35%;
+  left: 63%;
+  width: 21%;
+  height: 3px;
+}
+.horizontal_line1 {
+  background-color: #6cd2f4;
+  position: absolute;
+  top: 19.5%;
+  left: 50%;
+  width: 19%;
+  height: 3px;
+}
+
+/* recom card */
+
+.container_recom{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+
+}
+
+.recom_card {
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+  background: #212121;
+  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px #6082b682;
+}
+
+
+/* Map Menu */
+.hero-section .right-menu{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 100%;
+  width: 85%;
+  overflow-y: hidden;
+
+}
+
+.right-menu .txt{
+  color: black;
+}
+
+.hero-section .map-menu{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 100%;
+  width: 83%;
+}
+
+.map-menu .map{
+  height: 93%;
+  background-color: red;
+}
+
+.map-menu .bot-menu{
+  display: flex;
+  background-color: #1b2227;
+  height: 7%;
+}
+
+.bot-menu .filters{
+  display: flex;
+  padding: 15px
+}
+
+.filters .title{
+  display: flex;
+  color: white;
+  height: 100%;
+  padding: 0 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.bot-time, .bot-cat, .bot-area{
+  display: flex;
+  margin: 0 10px;
+  color: white;
+  height: 100%;
+  padding: 0 30px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #3d5464;
+  border: none;
+}
+
+.bot-time:hover, .bot-cat:hover, .bot-area:hover{
+  display: flex;
+  margin: 0 10px;
+  color: #1b2227;
+  height: 100%;
+  padding: 0 30px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #A0D7ff;
+}
+
+
+.bot-menu .city{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px
+}
+/* stats card */
+.row1{
+  position: relative;
+  top: -78px;
+  display: flex;
+  justify-content: center;
+}
+.row1-fcast{
+  position: relative;
+  top: -50px;
+  left: 10px;
+  margin-bottom: 9%;
+  display: flex;
+  justify-content: center;
+}
+.row1-stats {
+  position: relative;
+  top: -50px;
+  left: 10px;
+  margin-bottom: 16%;
+  display: flex;
+  justify-content: center;
+}
+.row2{
+  position: relative;
+  top: 75.5px;
+  display: flex;
+  justify-content: center;
+
+}
+.row2-fcast{
+  position: relative;
+  left: 10px;
+  margin-bottom: 13%;
+  display: flex;
+  justify-content: center;
+}
+.row2-stats {
+  position: relative;
+  left: 10px;
+  margin-bottom: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.container1{
+  position: relative;
+  margin-left: 0.5%;
+}
+
+svg text {
+  font-family: Georgia;
+  letter-spacing: 10px;
+  stroke: #0B4457;
+  font-size: 50px;
+  font-weight: 800;
+  stroke-width: 1;
+  fill: #0B4457;
+  color: white;
+}
+
+.text-shadow {
+  font-size: 20px;
+  font-style: italic;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #2282a2;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 290px;
+  height: 40px;
+  perspective: 1000px;
+  color: white;
+}
+
+.flip-card2-fcast {
+  background-color: transparent;
+  width: 500px;
+  height: 120px;
+  perspective: 1000px;
+  color: white;
+}
+.flip-card3 {
+  background-color: transparent;
+  width: 500px;
+  height: 120px;
+  perspective: 1000px;
+  color: white;
+}
+.flip-cardstats {
+  background-color: transparent;
+  width: 900px;
+  height: 220px;
+  perspective: 1000px;
+  color: white;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 150%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 150%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background-color: white;
+  border: 2px solid #37a0cf;
+}
+
+/*button*/
+.container_right {
+  position: absolute;
+  top: 380px;
+  right: 25px;
+}
+.container_left {
+  position: absolute;
+  top: 380px;
+  left: 280px;
+  transform: rotate(180deg);
+}
+.btn-conteiner {
+  display: flex;
+  justify-content: center;
+  --color-text: white;
+  --color-background: #37a0cf;
+  --color-outline: white;
+  --color-shadow: #00000080;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: 1s;
+  border-radius: 100px;
+  box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover,
+.btn-content:focus {
+  transition: 0.5s;
+  -webkit-animation: btn-content 1s;
+  animation: btn-content 1s;
+  outline: 0.1em solid transparent;
+  outline-offset: 0.2em;
+  box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+  transition: 0.5s;
+  margin-right: 0px;
+  transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+  transition: 0.5s;
+  margin-right: 25px;
+}
+
+.icon-arrow {
+  width: 20px;
+  margin-left: 15px;
+  position: relative;
+  top: 6%;
+}
+
+#arrow-icon-one {
+  transition: 0.4s;
+  transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+  transition: 0.5s;
+  transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+  animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+  transform: translateX(0%);
+  animation: color_anim 1s infinite 0.4s;
+}
+
+.h-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 150px;
+
+}
+
+.h-btn .btn{
+  background-color: #37a0cf;
+  border: #37a0cf;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h-btn .btn:hover{
+  background-color: #A0D7ff;
+  border: #A0D7ff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.h-btn .btn:hover, .h-btn .h-btn-logo:hover{
+  color: #1b2227;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*edit profile/ signup card*/
+.form {
+  position: relative;
+  top: 8%;
+  right: 2%;
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 550px;
+  padding: 20px;
+  width: 360px;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15%;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 28px;
+}
+
+.ic2 {
+  margin-top: 10px;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.submit {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 33px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+
+.card_load {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 27%;
+  top: -27%;
+  border-radius: 50%;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+}
+
+.circular-image {
+  border-radius: 50%; /* Apply circular border radius */
+  width: 150px; /* Set width */
+  height: 150px; /* Set height */
+  object-fit: cover; /* Ensure the image covers the entire circular area */
+}
+.info-window-content {
+  font-size: 14px;
+  color: black; /* Ensures text is visible */
+}
+
+.info-window-title {
+  margin: 0;
+  color: black; /* Ensures title is visible */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.info-window-text {
+  margin: 5px 0;
+  color: black; /* Ensures text is visible */
+}
+
+@keyframes load89234 {
+  100% {
+    background-position: -100% 0;
+  }
+}

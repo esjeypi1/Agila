@@ -1,0 +1,36 @@
+!.gitignore
+# Local environment files
+.env
+
+# PHP vendor
+/vendor/
+
+# Node modules
+/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Uploaded files / user content
+/uploads/
+
+# Sensitive config
+scripts/con_db.php
+
+# Keys and certificates
+*.pem
+*.key
+id_rsa
+id_dsa
+.env.*
+
+# Optional: large data files you may not want in repo
+# csv/*.csv

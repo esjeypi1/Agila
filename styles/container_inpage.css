@@ -1,0 +1,320 @@
+body{
+    background-image: url("../images/agilabg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0,0.5);
+  	
+}
+
+.box-out{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.hero-section{
+    height: 90%;
+    display: flex;
+    width: 100%;
+}
+
+/* Side Menu */
+.hero-section .side-menu{
+    display: flex;
+    flex-direction: column;                
+    background-color: white;
+    height: 100%;
+    width: 13%;
+    padding: 2%;
+}
+
+.side-menu .side-btn-grp{
+    display: flex;
+}
+
+.side-menu .place{
+    width: 100%;
+    margin: 0;
+    font-size: 50px;
+    color: #2282a2;
+    text-align: center;
+    font-weight:700;
+}
+
+.side-menu .dvr{
+    width: 100%;
+    color: white;
+    opacity: 1;
+    border: 2px solid white;
+    margin-bottom: 5%;
+}
+
+.side-menu .b-btn{
+    margin: 0;
+    display: flex;
+}
+.b-btn .h-btn{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.h-btn .h-btn-c{
+    text-align: center;
+    align-items: center;
+    width: 10%;
+    text-decoration: none;
+    border-radius: 10%;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #1b2227;
+    border: none;
+    transition: 0.25s;
+}
+.h-btn .h-btn-c:hover{
+    color: #1b2227;
+    background-color: #A0D7ff;
+}
+
+/* Map Menu */
+.hero-section .right-menu{
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    height: 100%;
+    width: 87%;
+}
+
+.right-menu .disp-right{
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+}
+
+/* ================================= INFORMATION ================================= */
+
+.hero-section .main-canvas{
+    display: flex;
+    width: 100%;
+}
+
+/* left canvas */
+.main-canvas .disp-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.disp-box .disp-left{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    background-color: #1892c3;
+  box-shadow: 2px 1px 5px #888888;
+  	
+}
+
+.disp-left .side-title{
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.side-title .place{
+    font-size: 2.3vw;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    width: 100%;
+}
+.side-title .sub{
+    font-size: 17px;
+    color: white;
+    font-weight:400;
+}
+
+.disp-left .side-btn-grp{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    flex-grow: 1;
+}
+.side-btn-grp .form-btn{
+    margin: 0;
+    display: flex;
+}
+.side-btn-grp .side-btn{
+    border: 0;
+    display: flex;
+    width: 100%;
+  background-color: #2282a2;
+    color: white;
+    padding: 4%;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.25s;
+}
+.side-btn-grp .side-btn:hover{
+    background-color: #A0D7ff;
+    color: #1b2227;
+}
+.side-btn-grp .side-btn-a{
+    border: 0;
+    pointer-events: none;
+    cursor: not-allowed;
+    display: flex;
+    width: 100%;
+    background-color: #A0D7ff;
+    color: #1b2227;
+    padding: 4%;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.25s;
+}
+.side-btn .btn-logo{
+    margin-right: 6%;
+    margin-left: 6%;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+}
+.side-btn-a .btn-logo{
+    margin-right: 6%;
+    margin-left: 6%;
+    text-align: center;
+    align-self: center;
+    font-size: 20px;
+}
+.side-btn-a .btn-logo-r{
+    margin-left: 25%;
+    text-align: center;
+    align-self: center;
+    font-size: 25px;
+}
+
+
+.side-btn-grp .left-btns{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+.left-btns .disp-btn{
+    width: 100%;
+    background-color: #101417;
+    text-decoration: none;
+    color: white;
+    padding: 3% 30%;     
+}
+.left-btns .disp-btn:hover{
+  background-color: #2282a2;
+    color: #101417
+}
+
+.disp-left .b-btn-in{
+    margin: 0;
+    display: flex;
+    margin-bottom: 20px;
+}
+.b-btn-in .h-btn-in{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.h-btn-in .h-btn-c-in{
+    text-align: center;
+    align-items: center;
+    width: 40px;
+    text-decoration: none;
+    border-radius: 10%;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #1b2227;
+    border: none;
+    transition: 0.25s;
+}
+.h-btn-in .h-btn-c-in:hover{
+    color: #1b2227;
+    background-color: #A0D7ff;
+}
+
+/* right canvas */
+.disp-box .disp-right{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 33% 0;
+    overflow: auto;
+    width: 83%;
+    overflow-anchor: auto;
+}
+
+.disp-right .sub{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 3%;
+  	color: #2282a2;
+}
+.disp-right .psub{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+  	color: black;
+}
+
+.disp-right .loc-box{
+    display: flex;
+    height: 50%;
+}
+.loc-box .map{
+    height: 100%;
+    width: 70%;
+}
+.map-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+.loc-box .desc{
+    align-self: center;
+    width: 50%;
+}
+.desc .desc-p{
+    font-size: 25px;
+    margin-left: 3%;
+  	color: black;
+}
+.desc .desc-tx{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.desc-tx .tx-icon{
+    color:#1892c3;
+    margin-right: 10px;
+}
+
+.disp-right .disp-scroll{
+    scroll-behavior: smooth;
+    padding: 0 4% 0;
+}
+
+.disp-right .table{
+    margin-bottom: 100px;
+}

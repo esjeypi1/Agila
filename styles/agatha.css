@@ -1,0 +1,553 @@
+body {
+    background-image: url("../images/adminagila.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+:root{
+    --margin: 30px 30px 0;
+}
+
+.pwet{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.hero-section{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+/* Side Menu */
+.hero-section .left-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 15%;
+}
+
+.sidenav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top:100%;
+    font-size: 25px;
+    color: white;
+    background-color: #1892c3;
+    flex-shrink: 0;
+}
+
+.side-btns{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.s-btn{
+    display: flex;
+    color: #2282a2;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    margin-top: 5%;
+}
+
+.s-btn:hover{
+    display: flex;
+    color: #1b2227;
+    background-color: #A0D7ff;
+    width: 100%;
+    text-decoration: none;
+}
+
+.as-btn{
+    display: flex;
+    color: #1b2227;
+    background-color: #A0D7ff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.as-btn:hover{
+    color: #1b2227;
+    background-color: #A0D7ff;
+    width: 100%;
+    text-decoration: none;
+}
+
+.h-btn{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h-btn .btn{
+    background-color: #37a0cf;
+    border: #37a0cf;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h-btn .btn:hover{
+    background-color: #A0D7ff;
+    border: #A0D7ff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.h-btn .btn:hover, .h-btn .h-btn-logo:hover{
+    color: #1b2227;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*----> RIGHT MENU <----*/
+.hero-section .right-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100%;
+    width: 85%;
+}
+
+.right-menu .title{
+    margin: var(--margin);
+    display: flex;
+    width: 100%;
+}
+.container {
+    position: absolute;
+}
+
+.container1 {
+    position: absolute;
+    top: 36%;
+    left: 48%;
+    width: 270px;
+}
+
+svg text {
+    font-family: Georgia;
+    letter-spacing: 10px;
+    stroke: #2282a2;
+    font-size: 80px;
+    font-weight: 800;
+    stroke-width: 1;
+  fill: #2282a2;
+    color: white;
+}
+
+
+#light{
+    position: relative;
+}
+
+#lineh1{
+    position: absolute;
+    top: 1px;
+    height: 3px;
+    background: #6cd2f4;
+    animation: lineH 7s infinite linear alternate;
+}
+
+@keyframes lineH{
+    0%{
+        width: 0%;
+        left: 110%;
+    }
+    100%{
+        width: 25%;
+        left: 0%;
+        opacity: 100%;
+    }
+}
+
+.container_card2 {
+    position: absolute;
+    top: 39.5%;
+    left: 40%;
+}
+
+.container_card1 {
+    position: absolute;
+    top: 39.5%;
+    left: 20%;
+}
+
+.container_card3 {
+    position: absolute;
+    top: 39.5%;
+    left: 60%;
+}
+
+.container_card4 {
+    position: absolute;
+    top: 39.5%;
+    left: 80%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 240px;
+    height: 150px;
+    perspective: 1000px;
+    color: white;
+  }
+  
+.text-shadow {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #2282a2;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+&:hover {
+	color: #fff;
+    }
+
+.tags small {
+    @media (max-width: 768px) {
+            font-size: 0.5em;
+        }
+    }
+        
+@keyframes flicker {
+        0% {
+        opacity: 0.5;
+            text-shadow: 2px 2px 10px #2962ff;
+        }
+        
+        100% {
+            opacity: 1;
+            text-shadow: 2px 2px 20px #2962ff;
+        }
+    }
+  
+.number {
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    top: 7em;
+    left: 1.5em;
+  }
+  
+.date_8264 {
+    position: absolute;
+    font-weight: 600;
+    font-size: 0.75em;
+    top: 9em;
+    left: 1.5em;
+    letter-spacing: 2px;
+  }
+  
+.cvc_number {
+    position: absolute;
+    font-weight: 600;
+    font-size: 0.75em;
+    top: 9em;
+    left: 8.5em;
+    letter-spacing: 2px;
+  }
+  
+.strip {
+    position: absolute;
+    background-color: white;
+    width: 15em;
+    height: 2.25em;
+    top: 0;
+    border-radius: 1rem 1rem 0 0;
+  }
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+.flip-card-front {
+    background-color: white;
+    border: 1px solid #37a0cf;
+  }
+  
+.flip-card-back {
+    background-color: white;
+    transform: rotateY(180deg);
+  }
+  
+.container_right {
+    position: absolute;
+    top: 27%;
+    left: 77%;
+}
+
+.container_left {
+    position: absolute;
+    top: 27%;
+    left: 43%;
+    transform: rotate(180deg);
+}
+
+.btn-conteiner {
+    display: flex;
+    justify-content: center;
+    --color-text: white;
+    --color-background: #37a0cf;
+    --color-outline: white;
+    --color-shadow: #00000080;
+}
+  
+.btn-content {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: 1s;
+    border-radius: 100px;
+    box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+  
+.btn-content:hover,
+.btn-content:focus {
+    transition: 0.5s;
+    -webkit-animation: btn-content 1s;
+    animation: btn-content 1s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+  
+.btn-content .icon-arrow {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+}
+  
+.btn-content:hover .icon-arrow {
+    transition: 0.5s;
+    margin-right: 25px;
+}
+  
+.icon-arrow {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 6%;
+}
+  
+#arrow-icon-one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+  
+#arrow-icon-two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+  
+.btn-content:hover #arrow-icon-three {
+    animation: color_anim 1s infinite 0.2s;
+}
+  
+.btn-content:hover #arrow-icon-one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+  
+.btn-content:hover #arrow-icon-two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+  
+@keyframes color_anim {
+    0% {
+      fill: white;
+    }
+  
+    50% {
+      fill: var(--color-background);
+    }
+  
+    100% {
+      fill: #9ee5fa;
+    }
+}
+  
+@-webkit-keyframes btn-content {
+    0% {
+      outline: 0.2em solid var(--color-background);
+      outline-offset: 0;
+    }
+  }
+  
+@keyframes btn-content {
+    0% {
+      outline: 0.2em solid var(--color-background);
+      outline-offset: 0;
+    }
+}
+
+.container_edit {
+    position: absolute;
+    top: 90%;
+    left: 82.5%;
+    width: 270px;
+}
+
+.edit-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none !important;
+}
+  
+.edit-svgIcon {
+    width: 17px;
+    transition-duration: 0.3s;
+}
+  
+.edit-svgIcon path {
+    fill: white;
+}
+  
+.edit-button:hover {
+    width: 120px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+}
+  
+.edit-button:hover .edit-svgIcon {
+    width: 20px;
+    transition-duration: 0.3s;
+    transform: translateY(60%);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+  
+.edit-button::before {
+    display: none;
+    content: "Edit";
+    color: white;
+    transition-duration: 0.3s;
+    font-size: 2px;
+}
+  
+.edit-button:hover::before {
+    display: block;
+    padding-right: 10px;
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(0px);
+    transition-duration: 0.3s;
+}  
+
+.container_tip {
+    position: absolute;
+    top: 90%;
+    left: 23%;
+
+}
+
+.wordCarousel {
+    font-size: 15px;
+    font-weight: 100;
+    color: #6cd2f4;
+    div {
+        overflow: hidden;
+        position: relative;
+        float: right;
+        height: 65px;
+        padding-top: 10px;
+        margin-top: -10px;
+        li {
+            font-family: "Poppins", sans-serif;
+            color: #6cd2f4;
+            font-weight: 700;
+            padding: 0 10px;
+            height: 45px;
+            margin-bottom: 45px;
+            display: block;
+        }
+    }
+}
+
+.flip2 { animation: flip2 5s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+.flip3 { animation: flip3 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+
+@keyframes flip2 {
+    0% { margin-top: -180px; }
+    5% { margin-top: -90px;  }
+    50% { margin-top: -90px; }
+    55% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -180px; }
+}
+
+@keyframes flip3 {
+    0% { margin-top: -270px; }
+    5% { margin-top: -180px; }
+    33% { margin-top: -180px; }
+    38% { margin-top: -90px; }
+    66% { margin-top: -90px; }
+    71% { margin-top: 0px; }
+    99.99% { margin-top: 0px; }
+    100% { margin-top: -270px; }
+}

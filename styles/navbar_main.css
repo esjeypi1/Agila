@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #1892c3;
+    height: 10%;
+
+}
+
+/* Logo */
+.logo{
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+/* Logout Button */
+.logout-btn{
+    border: 2px solid white;
+    color: white;
+    border-width: 4px;
+    padding: 3px 12px;
+    text-decoration: none;
+}
+
+.logout-btn:hover{
+    border: 2px solid #a0d7ff;
+    color: #A0D7ff;
+    border-width: 4px;
+    padding: 3px 12px;
+}
+
+/* Right Side Menu */
+.offcanvas-body{
+    background-color: #1892c3;
+}
+
+.offcanvas-header{
+    background-color: #1892c3;
+    color: white;
+}
+
+/* Hamburger Icon & Submenus */
+.navbar-toggler {
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active{
+    color: #A0D7ff;
+}
+
+@media (min-width: 991px){
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0%;
+        height: 2px;
+        background-color: #A0D7ff;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}

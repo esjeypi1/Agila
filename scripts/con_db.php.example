@@ -1,0 +1,17 @@
+<?php
+/*
+ Example: do NOT commit real credentials. Create a `.env` file at the project root with these keys:
+
+ DB_HOST=localhost
+ DB_NAME=agiladb
+ DB_USER=agatha
+ DB_PASS=your_database_password_here
+
+ The real `scripts/con_db.php` is written to read those env vars using getenv().
+ This sample file is for reference only.
+*/
+
+// Sample usage note:
+// include __DIR__ . '/con_db.php';
+
+?>

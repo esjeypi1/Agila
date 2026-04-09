@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
+
+body {
+    background-image: url("../images/adminagila.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    position: absolute;
+}
+
+.container1 {
+    position: absolute;
+    top: 36%;
+    left: 48%;
+    width: 270px;
+}
+
+svg text {
+    font-family: Georgia;
+    letter-spacing: 10px;
+    stroke: #2282a2;
+    font-size: 85px;
+    font-weight: 800;
+    stroke-width: 1;
+  fill: #2282a2;
+    color: white;
+}
+
+/* line */
+.horizontal_line {
+    background-color: #6cd2f4;
+    position: absolute;
+    top: 34%;
+    left: 61.5%;
+    width: 25%;
+    height: 3px;
+}
+
+
+/* recom card */
+
+.container_recom{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+
+}
+
+.card {
+    --main-color: #37a0cf;
+    --submain-color: #ccc;
+    --bg-color: #37a0cf;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--bg-color);
+  }
+  
+.card__img {
+    height: 192px;
+    width: 100%;
+  }
+  
+.card__img svg {
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+  }
+  
+.card__avatar {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: var(--bg-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(30% - 57px);
+}
+  
+.card__avatar svg {
+    width: 100px;
+    height: 100px;
+}
+  
+.card__title {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+  
+.card__subtitle {
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--submain-color);
+}
+  
+.card__btn {
+    margin-top: 15px;
+    width: 76px;
+    height: 31px;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--main-color);
+    background: var(--bg-color);
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+  
+.card__btn-solid {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+  
+.card__btn:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+}
+  
+.card__btn-solid:hover {
+    background: var(--bg-color);
+    color: var(--main-color);
+}

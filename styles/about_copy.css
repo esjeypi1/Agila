@@ -1,0 +1,440 @@
+body {
+    background-image: url("../images/agilabg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    color: white;
+}
+
+:root {
+    --margin: 30px 30px 0;
+}
+
+.box-out {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.hero-section {
+    height: 90%;
+    display: flex;
+    width: 100%;
+}
+
+.hero-section .side-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #3d5464;
+    height: 100%;
+    width: 17%;
+}
+
+.side-menu .side-title {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.side-title .place {
+    width: 100%;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.side-title .coor {
+    width: 100%;
+    margin: 0;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10%;
+}
+
+.side-title .search-bar {
+    display: flex;
+    background-color: #1b2227;
+    border: 2px solid #1b2227;
+    width: 80%;
+    height: 10%;
+    align-self: center;
+}
+
+.search-bar .search-input {
+    flex-grow: 3;
+    align-self: center;
+    border: none;
+    border-radius: 0;
+    height: 100%;
+}
+
+.search-bar .search-logo {
+    color: white;
+    align-self: center;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.side-menu .side-btn-grp {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    flex-grow: 2;
+    border: none;
+}
+
+.side-btn-grp .side-btn {
+    border: none;
+    width: 100%;
+    background-color: #1b2227;
+    color: white;
+    padding: 4%;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.25s;
+}
+
+.side-btn-grp .side-btn:hover {
+    background-color: #A0D7ff;
+    color: #1b2227;
+}
+
+.side-btn .btn-logo {
+    margin-right: 6%;
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+.side-menu .side-tips {
+    display: flex;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    color: white;
+    align-self: flex-end;
+    padding: 0 10px 5%;
+}
+
+.hero-section .right-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 100%;
+    width: 85%;
+    overflow-y: hidden;
+}
+
+.hero-section .map-menu {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 100%;
+    width: 83%;
+}
+
+.map-menu .map {
+    height: 93%;
+    background-color: red;
+}
+
+.map-menu .bot-menu {
+    display: flex;
+    background-color: #1b2227;
+    height: 7%;
+}
+
+.bot-menu .filters {
+    display: flex;
+    padding: 15px;
+}
+
+.filters .title {
+    display: flex;
+    color: white;
+    height: 100%;
+    padding: 0 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.bot-time, .bot-cat, .bot-area {
+    display: flex;
+    margin: 0 10px;
+    color: white;
+    height: 100%;
+    padding: 0 30px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #3d5464;
+    border: none;
+}
+
+.bot-time:hover, .bot-cat:hover, .bot-area:hover {
+    color: #1b2227;
+    background-color: #A0D7ff;
+}
+
+.bot-menu .city {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+.row1, .row1-fcast, .row2, .row2-fcast {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.row1 {
+    top: -78px;
+}
+
+.row1-fcast {
+    top: -50px;
+    left: 10px;
+    margin-bottom: 9%;
+}
+
+.row2 {
+    top: 75.5px;
+}
+
+.row2-fcast {
+    left: 10px;
+    margin-bottom: 13%;
+}
+
+.container1 {
+    position: relative;
+    margin-left: 0.5%;
+}
+
+svg text {
+    font-family: Georgia;
+    letter-spacing: 10px;
+    stroke: white;
+    font-size: 85px;
+    font-weight: 50;
+    stroke-width: 1;
+    fill: white;
+}
+
+.text-shadow {
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: #fff;
+    -webkit-text-stroke-width: 1px;
+    text-shadow: 2px 2px 10px #2962ff;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+    letter-spacing: 0.2em;
+    animation: flicker 1.5s ease-in-out infinite alternate;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 290px;
+    height: 40px;
+    perspective: 1000px;
+    color: white;
+}
+
+.flip-card2-fcast {
+    background-color: transparent;
+    width: 500px;
+    height: 120px;
+    perspective: 1000px;
+    color: white;
+}
+
+.flip-card3 {
+    background-color: transparent;
+    width: 500px;
+    height: 120px;
+    perspective: 1000px;
+    color: white;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card-front {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 150%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+    background-color: black;
+    border: 1px solid #6cd2f4;
+}
+
+.container_right {
+    position: absolute;
+    top: 380px;
+    right: 25px;
+}
+
+.container_left {
+    position: absolute;
+    top: 380px;
+    left: 280px;
+    transform: rotate(180deg);
+}
+
+.btn-conteiner {
+    display: flex;
+    justify-content: center;
+    --color-text: #9ee5fa;
+    --color-background: #000000;
+    --color-outline: #9ee5fa80;
+    --color-shadow: #00000080;
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: 1s;
+    border-radius: 100px;
+    box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover,
+.btn-content:focus {
+    transition: 0.5s;
+    -webkit-animation: btn-content 1s;
+    animation: btn-content 1s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+    margin-right: 25px;
+}
+
+.icon-arrow {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 6%;
+}
+
+#arrow-icon-one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+.h-btn {
+    display: flex;
+    margin: 0 0 5% 0;
+}
+
+@-webkit-keyframes btn-content {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes btn-content {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes color_anim {
+    0% {
+        fill: #7ef9ff;
+    }
+    50% {
+        fill: #89d1d6;
+    }
+    100% {
+        fill: #7ef9ff;
+    }
+}
+
+@keyframes flicker {
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow: 0 0 4px #2962ff, 0 0 10px #2962ff, 0 0 15px #2962ff, 0 0 20px #2962ff, 0 0 25px #2962ff, 0 0 30px #2962ff, 0 0 35px #2962ff;
+        opacity: 0.99;
+    }
+    20%,
+    24%,
+    55% {
+        text-shadow: none;
+        opacity: 0.4;
+    }
+}
+
