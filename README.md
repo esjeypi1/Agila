@@ -3,7 +3,11 @@
 
 Short description
 -----------------
-AGILA is a PHP + JavaScript prototype created for a thesis project. The codebase demonstrates map visualizations, simple data processing, and an interface for exploring simulated crime statistics per administrative area. IMPORTANT: this repository contains only mock/dummy data intended for testing and demonstration — it is not a production system.
+AGILA is a PHP + JavaScript + Python prototype created for a thesis project. The codebase demonstrates map visualizations, simple data processing, and an interface for exploring simulated crime statistics per administrative area. IMPORTANT: this repository contains only mock/dummy data intended for testing and demonstration — it is not a production system.
+
+Thesis title
+------------
+**Agila: Employing Knowledge-Based Recommendations in Crime Mapping for Manila City using ARIMA Forecasting Algorithm**
 
 Repository contents (high level)
 --------------------------------
