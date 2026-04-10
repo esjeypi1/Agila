@@ -1,0 +1,23 @@
+# Force correct languages for GitHub Linguist
+# Treat PHP files as PHP
+*.php linguist-language=PHP
+
+# Treat client scripts as JavaScript
+scripts/js/*.js linguist-language=JavaScript
+
+# CSV files are data (CSV)
+*.csv linguist-language=CSV
+
+# Treat common text and stats files as plain text
+*.txt linguist-language=Text
+
+# Images should not count as code
+images/* linguist-language=Image
+
+# Do not let GitHub count files in these folders as source code
+csv/* linguist-vendored
+images/* linguist-vendored
+
+# If you have any generated or vendor directories, mark them vendored
+vendor/** linguist-vendored
+node_modules/** linguist-vendored
